@@ -65,6 +65,7 @@ const Navigation = (props) => {
                 smooth={true}
                 offset={0}
                 duration={1000}
+                data-item={NavigationEnum.NAV.HOME}
               >
                 <span>
                   {NavigationEnum.NAV.HOME}
@@ -143,6 +144,7 @@ const Navigation = (props) => {
                 smooth={true}
                 offset={0}
                 duration={1000}
+                data-item={NavigationEnum.NAV.HOME}
               >
                 <span>
                   {NavigationEnum.NAV.HOME}
